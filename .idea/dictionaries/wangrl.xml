@@ -1,14 +1,25 @@
 <component name="ProjectDictionaryState">
   <dictionary name="wangrl">
     <words>
+      <w>bgra</w>
       <w>datastream</w>
+      <w>debugf</w>
+      <w>debugster</w>
       <w>fval</w>
+      <w>grglutil</w>
       <w>idat</w>
       <w>iend</w>
+      <w>iface</w>
       <w>ihdr</w>
+      <w>integerv</w>
       <w>ival</w>
+      <w>msaa</w>
+      <w>noerrcheck</w>
       <w>noninfringement</w>
+      <w>pixmap</w>
       <w>pval</w>
+      <w>rasterization</w>
+      <w>skia</w>
       <w>stdalloc</w>
       <w>svpng</w>
       <w>wangrl</w>

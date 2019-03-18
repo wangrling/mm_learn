@@ -38,3 +38,13 @@ set_target_properties(libskshaper PROPERTIES IMPORTED_LOCATION ${CMAKE_SOURCE_DI
 
 add_executable(SkiaBitmap_test code/skia/tests/SkBitmap_test.cpp)
 target_link_libraries(SkiaBitmap_test libskia libskottie libsksg libskshaper)
+
+find_package(SDL2 REQUIRED)
+
+find_package(OpenGL REQUIRED)
+
+add_executable(SkiaSDL_test code/skia/tests/SkiaSDL_test.cpp)
+target_link_libraries(SkiaSDL_test libskia libskottie libsksg libskshaper ${SDL2_LIBRARIES} ${OPENGL_LIBRARY})
+
+add_executable(SkiaLottie_test code/skia/tests/SkiaLottie_test.cpp)
+target_link_libraries(SkiaLottie_test libskia libskottie libsksg libskshaper)
